@@ -1,0 +1,39 @@
+<!--for the admin page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGlow: Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="glow-text">MediGlow Admin Dashboard</h1>
+        
+        <div class="admin-section">
+            <h2>Add / Update Medicines</h2>
+            <input type="text" id="pharmacy-name" class="glow-input" placeholder="Enter Pharmacy Name">
+            <input type="text" id="medicine-name" class="glow-input" placeholder="Enter Medicine Name">
+            <input type="number" id="medicine-quantity" class="glow-input" placeholder="Quantity">
+            <button class="glow-button" onclick="addMedicine()">Add / Update</button>
+        </div>
+        
+        <div class="admin-section">
+            <h2>Manage Stock</h2>
+            <input type="text" id="update-medicine" class="glow-input" placeholder="Medicine Name">
+            <input type="number" id="update-quantity" class="glow-input" placeholder="New Quantity">
+            <button class="glow-button" onclick="updateStock()">Update Stock</button>
+        </div>
+        
+        <div class="admin-section">
+            <h2>Medicine List</h2>
+            <div id="medicine-list"></div>
+        </div>
+    </div>
+    <br>
+    <a href="origin.html" class="glow-button" id="back">Back</a>
+    <a href="medAlert.html" class="glow-button" id="user-panel">User page</a>
+    <script src="index.js"></script>
+</body>
+</html>

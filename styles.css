@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+h1 {
+    font-size: 2em;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+.admin-section {
+    background: #222;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+    
+}
+
+.glow-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    outline: none;
+    text-align: center;
+}
+
+.glow-input::placeholder {
+    color: #bbb;
+}
+
+.glow-button {
+    background: #00ffff;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+    transition: 0.3s;
+}
+
+.glow-button:hover {
+    background: #00cccc;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 1);
+}
+
+.pharmacy-card {
+    background: #333;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 255, 255, 0.3);
+}

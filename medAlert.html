@@ -1,0 +1,26 @@
+<!--User input-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGlow: Live Medicine Locator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="glow-text">MediGlow: Live Medicine Locator</h1>
+        <div class="search-box">
+            <input type="text" id="medicine" class="glow-input" placeholder="Enter Medicine Name">
+            <input type="text" id="location" class="glow-input" placeholder="Enter Your Location">
+            <br>
+            <button class="glow-button" onclick="searchMedicine()">Search</button>
+        </div>
+        <div id="results" class="results"></div>
+    </div>
+    <br>
+    <a href="origin.html" class="glow-button" id="back">Back</a>
+    <a href="index.html" class="glow-button">Admin Panel</a>
+    <script src="app.js"></script>
+</body>
+</html>
